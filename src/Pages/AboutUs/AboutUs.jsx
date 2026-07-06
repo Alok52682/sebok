@@ -10,7 +10,7 @@ const AboutUs = () => {
             <AboutHero />
             <div className="m-8 max-w-7xl md:mx-auto md:my-15 text-xl p-2 md:p-4 rounded md:rounded-3xl bg-gray-50 shadow-lg md:shadow-xl ">
                 <h1 className="text-4xl md:text-5xl font-extrabold text-[#457d00] underline">সংগঠনের পরিচিতি</h1>
-                <p className="mt-8"><span className="font-bold">সেবক (SEBOK)</span> একটি অলাভজনক, অরাজনৈতিক ও অসাম্প্রদায়িক স্বেচ্ছাসেবী সামাজিক সংগঠন, যা মানবকল্যাণে নিবেদিত। এটি গড়ে উঠেছে একদল উদ্যমী, সচেতন ও মানবিক মূল্যবোধে বিশ্বাসী তরুণদের উদ্যোগে, যারা সমাজের উন্নয়নে সক্রিয় ভূমিকা রাখতে আগ্রহী।</p>
+                <p className="mt-8"><span className="font-bold text-[#bd5602]">সেবক (SEBOK)</span> একটি অলাভজনক, অরাজনৈতিক ও অসাম্প্রদায়িক স্বেচ্ছাসেবী সামাজিক সংগঠন, যা মানবকল্যাণে নিবেদিত। এটি গড়ে উঠেছে একদল উদ্যমী, সচেতন ও মানবিক মূল্যবোধে বিশ্বাসী তরুণদের উদ্যোগে, যারা সমাজের উন্নয়নে সক্রিয় ভূমিকা রাখতে আগ্রহী।</p>
                 <p className="mt-8">বর্তমান সমাজে অসহায়, সুবিধাবঞ্চিত ও দরিদ্র মানুষের সংখ্যা এখনও উল্লেখযোগ্য। এই বাস্তবতা উপলব্ধি করে সেবক (SEBOK) প্রতিষ্ঠিত হয়েছে এমন একটি প্ল্যাটফর্ম হিসেবে, যেখানে সবাই একসাথে মিলিত হয়ে মানুষের পাশে দাঁড়াতে পারে।</p>
                 <p className="mt-8">আমরা বিশ্বাস করি, একটি সুন্দর সমাজ গড়ে তুলতে শুধু সরকারের প্রচেষ্টা যথেষ্ট নয়—এর জন্য প্রয়োজন সাধারণ মানুষের অংশগ্রহণ, সচেতনতা এবং সহমর্মিতা। এই বিশ্বাস থেকেই আমাদের পথচলা।।</p>
                 <p className="mt-8">সেবক (SEBOK) শুরু থেকেই বিভিন্ন মানবিক ও সামাজিক কার্যক্রমের মাধ্যমে মানুষের জীবনে ইতিবাচক পরিবর্তন আনার চেষ্টা করে যাচ্ছে এবং ভবিষ্যতেও এই ধারাবাহিকতা বজায় রাখার লক্ষ্যে কাজ করে যাবে।</p>
@@ -20,7 +20,7 @@ const AboutUs = () => {
             {/* nature of the org */}
             <div className="m-8 max-w-7xl md:mx-auto md:my-15 text-xl p-4 rounded md:rounded-3xl bg-gray-50 shadow-lg md:shadow-xl ">
                 <h1 className="text-4xl md:text-5xl font-extrabold text-[#457d00] text-center underline">সংগঠনের প্রকৃতি</h1>
-                <p className="mt-8"><span className="font-bold">সেবক (SEBOK)</span> তার কার্যক্রম পরিচালনা করে কিছু মৌলিক নীতির উপর ভিত্তি করে, যা সংগঠনটির স্বচ্ছতা, গ্রহণযোগ্যতা এবং কার্যকারিতা নিশ্চিত করে।</p>
+                <p className="mt-8"><span className="font-bold text-[#bd5602]">সেবক (SEBOK)</span> তার কার্যক্রম পরিচালনা করে কিছু মৌলিক নীতির উপর ভিত্তি করে, যা সংগঠনটির স্বচ্ছতা, গ্রহণযোগ্যতা এবং কার্যকারিতা নিশ্চিত করে।</p>
                 <div className="md:grid grid-cols-2 gap-10 mask-y-from-100% my-10">
                     <div className="card bg-base-100 card-md shadow-sm">
                         <div className="card-body">
@@ -52,12 +52,12 @@ const AboutUs = () => {
             {/* sort history to the org */}
             <div className="m-8 max-w-7xl md:mx-auto md:my-15 text-xl p-2 md:p-4 rounded md:rounded-3xl bg-gray-50 shadow-lg md:shadow-xl ">
 
-                <h1 className="text-4xl text-center md:text-end md:text-5xl font-extrabold text-[#457d00] underline">
+                <h1 className="text-4xl md:text-5xl text-center md:text-end font-extrabold text-[#457d00] underline">
                     সংক্ষিপ্ত ইতিহাস
                 </h1>
 
                 <p className="mt-8 md:text-end">
-                    <span className="font-bold">সেবক (SEBOK)</span>-এর যাত্রা শুরু হয় একটি ছোট উদ্যোগ থেকে,
+                    <span className="font-bold text-[#bd5602]">সেবক (SEBOK)</span>-এর যাত্রা শুরু হয় একটি ছোট উদ্যোগ থেকে,
                     যেখানে কিছু উদ্যমী তরুণ সমাজের অসহায় মানুষের পাশে দাঁড়ানোর লক্ষ্যে একত্রিত হয়।
                 </p>
 
@@ -78,7 +78,7 @@ const AboutUs = () => {
 
             <div className="max-w-6xl mx-auto text-center">
 
-                <h2 className="text-3xl md:text-4xl text-[#457d00] font-bold mb-6">
+                <h2 className="text-4xl md:text-5xl text-[#457d00] font-bold mb-6 underline">
                     লক্ষ্য ও উদ্দেশ্য
                 </h2>
 
