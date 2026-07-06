@@ -3,7 +3,7 @@ import Logo from "../../assets/sebok_logo.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-neutral-primary-soft overflow-x-hidden">
+        <footer className="bg-neutral-primary-soft overflow-x-hidden bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 py-6">
 
                 {/* MAIN GRID */}

@@ -5,7 +5,7 @@ import logo from '../../assets/sebok_logo.png';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-    return (<nav className="bg-neutral-primary text-[#457d00] w-full border-b border-[#bd5602]"> <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
+    return (<nav className="bg-neutral-primary text-[#457d00] w-full border-b border-[#bd5602] bg-gray-50"> <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
 
         <NavLink to="/" className="flex items-center space-x-2">
             <img
