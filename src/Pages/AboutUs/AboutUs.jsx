@@ -52,22 +52,22 @@ const AboutUs = () => {
             {/* sort history to the org */}
             <div className="m-8 max-w-7xl md:mx-auto md:my-15 text-xl p-2 md:p-4 rounded md:rounded-3xl bg-gray-50 shadow-lg md:shadow-xl ">
 
-                <h1 className="text-4xl text-end md:text-5xl font-extrabold text-[#457d00] underline">
+                <h1 className="text-4xl text-center md:text-end md:text-5xl font-extrabold text-[#457d00] underline">
                     সংক্ষিপ্ত ইতিহাস
                 </h1>
 
-                <p className="mt-8 text-end">
+                <p className="mt-8 md:text-end">
                     <span className="font-bold">সেবক (SEBOK)</span>-এর যাত্রা শুরু হয় একটি ছোট উদ্যোগ থেকে,
                     যেখানে কিছু উদ্যমী তরুণ সমাজের অসহায় মানুষের পাশে দাঁড়ানোর লক্ষ্যে একত্রিত হয়।
                 </p>
 
-                <p className="mt-8 text-end">
+                <p className="mt-8 md:text-end">
                     শুরুর দিকে সীমিত সম্পদ ও সুযোগ থাকা সত্ত্বেও, তাদের আন্তরিকতা ও দৃঢ় মনোবলের মাধ্যমে
                     বিভিন্ন ছোট ছোট উদ্যোগ গ্রহণ করা হয়। ধীরে ধীরে এই উদ্যোগগুলো মানুষের মাঝে সাড়া ফেলে
                     এবং সংগঠনটি একটি সুসংগঠিত রূপ লাভ করে।
                 </p>
 
-                <p className="mt-8 text-end">
+                <p className="mt-8 md:text-end">
                     সময়ের সাথে সাথে নতুন সদস্য যুক্ত হয়, কার্যক্রমের পরিধি বৃদ্ধি পায় এবং
                     সেবক (SEBOK) একটি বিশ্বস্ত ও মানবিক সংগঠন হিসেবে পরিচিতি লাভ করে।
                 </p>
