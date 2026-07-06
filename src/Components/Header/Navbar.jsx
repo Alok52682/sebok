@@ -5,7 +5,7 @@ import logo from '../../assets/sebok_logo.png';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
-    return (<nav className="bg-neutral-primary w-full border-b border-default"> <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
+    return (<nav className="bg-neutral-primary text-[#457d00] w-full border-b border-[#bd5602]"> <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
 
         <NavLink to="/" className="flex items-center space-x-2">
             <img
@@ -13,7 +13,7 @@ const Navbar = () => {
                 className="h-9"
                 alt="Logo"
             />
-            <span className="self-center text-3xl text-heading font-semibold">
+            <span className="self-center text-3xl text-[#bd5602] text-heading font-semibold">
                 সেবক
             </span>
         </NavLink>
@@ -51,25 +51,45 @@ const Navbar = () => {
             <ul className="font-medium flex flex-col p-4 mt-4 border rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-neutral-primary">
 
                 <li>
-                    <NavLink to="/" className="block py-2 px-3">
+                    <NavLink
+                        to="/"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#bd5602] font-bold border-b-2"
+                                : "block py-2 px-3 hover:text-[#bd5602]"}>
                         হোম
                     </NavLink>
                 </li>
 
                 <li>
-                    <NavLink to="/about" className="block py-2 px-3">
+                    <NavLink
+                        to="/about"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#bd5602] font-bold border-b-2"
+                                : "block py-2 px-3 hover:text-[#bd5602]"}>
                         আমাদের সম্পর্কে
                     </NavLink>
                 </li>
 
                 <li>
-                    <NavLink to="/activities" className="block py-2 px-3">
+                    <NavLink
+                        to="/activities"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#bd5602] font-bold border-b-2"
+                                : "block py-2 px-3 hover:text-[#bd5602]"}>
                         কার্যক্রম
                     </NavLink>
                 </li>
 
                 <li>
-                    <NavLink to="/organization" className="block py-2 px-3">
+                    <NavLink
+                        to="/organization"
+                        className={({ isActive }) =>
+                            isActive
+                                ? "text-[#bd5602] font-bold border-b-2"
+                                : "block py-2 px-3 hover:text-[#bd5602]"}>
                         সংগঠন
                     </NavLink>
                 </li>

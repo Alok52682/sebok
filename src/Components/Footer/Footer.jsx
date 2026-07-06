@@ -29,7 +29,7 @@ const Footer = () => {
 
                         {/* Quick Links */}
                         <div className="min-w-0">
-                            <h2 className="text-lg font-semibold text-heading mb-3">
+                            <h2 className="text-lg text-[#457d00] font-semibold text-heading mb-3">
                                 গুরুত্বপূর্ণ লিংকসমূহ
                             </h2>
                             <ul className="text-body space-y-2">
@@ -43,32 +43,32 @@ const Footer = () => {
                                         সম্পর্কে
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link to="/contact" className="hover:underline">
                                         যোগাযোগ
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
 
                         {/* Contact Info */}
                         <div className="min-w-0">
-                            <h2 className="text-lg font-semibold text-heading mb-3">
+                            <h2 className="text-lg text-[#457d00] font-semibold text-heading mb-3">
                                 যোগাযোগ তথ্য
                             </h2>
                             <ul className="text-body space-y-2">
                                 <li>
-                                    <Link to="/facebook" className="hover:text-heading">
+                                    <a href="https://www.facebook.com/facebook.comsebok" className="hover:text-heading" target="_blank">
                                         Facebook
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
-                                    <Link to="/instagram" className="hover:text-heading">
+                                    <Link to="###" className="hover:text-heading">
                                         Instagram
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="/linkedin" className="hover:text-heading">
+                                    <Link to="###" className="hover:text-heading">
                                         LinkedIn
                                     </Link>
                                 </li>
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
 
                 {/* Bottom */}
-                <div className="mt-8 border-t border-default pt-4 text-center text-sm text-body">
+                <div className="mt-8 border-t border-[#bd5602] text-[#bd5602] pt-4 text-center text-sm text-body">
                     © ২০২৬ সেবক
                 </div>
 
