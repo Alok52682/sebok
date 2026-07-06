@@ -1,19 +1,20 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
+import logo from '../../assets/sebok_logo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (<nav className="bg-neutral-primary w-full border-b border-default"> <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
 
-        <NavLink to="/" className="flex items-center space-x-3">
+        <NavLink to="/" className="flex items-center space-x-2">
             <img
-                src="https://flowbite.com/docs/images/logo.svg"
-                className="h-7"
+                src={logo}
+                className="h-9"
                 alt="Logo"
             />
-            <span className="self-center text-xl text-heading font-semibold">
-                Flowbite
+            <span className="self-center text-3xl text-heading font-semibold">
+                সেবক
             </span>
         </NavLink>
 

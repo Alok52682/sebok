@@ -19,8 +19,8 @@ const Footer = () => {
                             />
                         </div>
                         <p className="text-body text-center md:text-start text-sm mt-3 mx-auto md:mx-0 block wrap-break-word">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />
-                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            সেবক (SEBOK) একটি অলাভজনক, অরাজনৈতিক ও অসাম্প্রদায়িক স্বেচ্ছাসেবী সামাজিক সংগঠন, <br />
+                            মানবকল্যাণ, শিক্ষা, স্বাস্থ্যসেবা ও সমাজের উন্নয়নে নিরলসভাবে কাজ করে যাচ্ছে।
                         </p>
                     </div>
 
@@ -30,7 +30,7 @@ const Footer = () => {
                         {/* Quick Links */}
                         <div className="min-w-0">
                             <h2 className="text-lg font-semibold text-heading mb-3">
-                                Quick Links
+                                গুরুত্বপূর্ণ লিংকসমূহ
                             </h2>
                             <ul className="text-body space-y-2">
                                 <li>
