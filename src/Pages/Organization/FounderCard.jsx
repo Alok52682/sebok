@@ -1,6 +1,6 @@
 
 const FounderCard = ({ founder }) => {
-    const { img, designation, birth_place, description, name } = founder
+    const { img, designation, birth_place, description, name, description_2 } = founder
     return (
         <div className="flex flex-col md:flex-row bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition duration-300 mb-10">
 
@@ -32,8 +32,11 @@ const FounderCard = ({ founder }) => {
                 </p>
 
                 {/* Description */}
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed mb-5">
                     {description}
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                    {description_2}
                 </p>
             </div>
         </div>

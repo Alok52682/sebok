@@ -5,7 +5,7 @@ import GSImg from '../../assets/General_Secratery.png';
 const OrgHero = () => {
     return (
         <section
-            className="relative flex flex-col items-center text-white pb-16 pt-16 px-4 mb-10"
+            className="relative flex flex-col items-center text-white py-10 px-4 mb-10 min-h-[35vh] md:min-h-[50vh]"
             style={{
                 background: "linear-gradient(135deg, #457d00, #bd5602)",
             }}
@@ -21,7 +21,7 @@ const OrgHero = () => {
             </h1>
 
             {/* Description */}
-            <p className="text-white/80 text-center max-w-2xl mt-5 md:mt-8 leading-relaxed">
+            <p className="text-white/80 text-center text-xs md:text-base max-w-2xl mt-5 md:mt-8 leading-relaxed">
                 সেবক (SEBOK) একটি সুসংগঠিত স্বেচ্ছাসেবী সংগঠন, যেখানে প্রতিষ্ঠাতা সদস্য,
                 কার্যনির্বাহী কমিটি এবং সাধারণ সদস্যদের সম্মিলিত প্রচেষ্টায় সমাজের বিভিন্ন
                 উন্নয়নমূলক কার্যক্রম পরিচালিত হয়।

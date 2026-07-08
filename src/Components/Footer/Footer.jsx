@@ -68,9 +68,9 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="https://www.youtube.com/@sebokinfo" className="hover:text-heading">
+                                    <a href="https://www.youtube.com/@sebokinfo" className="hover:text-heading" target="_blank">
                                         YouTube
-                                    </Link>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
