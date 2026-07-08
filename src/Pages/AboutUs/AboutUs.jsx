@@ -8,6 +8,26 @@ const AboutUs = () => {
                 <title>সেবক | আমাদের সম্পর্কে</title>
             </Helmet>
             <AboutHero />
+
+            <div className="max-w-4xl mx-auto text-center mt-10">
+
+                {/* Main Name */}
+                <h2 className="text-3xl md:text-4xl font-bold text-green-600 mb-2">
+                    সেবক
+                </h2>
+
+                {/* Sub tagline */}
+                <p className="text-gray-600 tracking-wide mb-4">
+                    সেবা • ব্রত • কাজ
+                </p>
+
+                {/* Quote */}
+                <p className="text-lg md:text-xl italic text-gray-700 border-l-4 border-green-500 pl-4 inline-block">
+                    “সেবক—সহমর্মিতার হাত, মানবতার সাথে পথচলা”
+                </p>
+
+            </div>
+
             <div className="m-8 max-w-7xl md:mx-auto md:my-15 text-xl p-2 md:p-4 rounded md:rounded-3xl bg-gray-50 shadow-lg md:shadow-xl ">
                 <h1 className="text-4xl md:text-5xl font-extrabold text-[#457d00] underline">সংগঠনের পরিচিতি</h1>
                 <p className="mt-8"><span className="font-bold text-[#bd5602]">সেবক (SEBOK)</span> একটি অলাভজনক, অরাজনৈতিক ও অসাম্প্রদায়িক স্বেচ্ছাসেবী সামাজিক সংগঠন, যা মানবকল্যাণে নিবেদিত। এটি গড়ে উঠেছে একদল উদ্যমী, সচেতন ও মানবিক মূল্যবোধে বিশ্বাসী তরুণদের উদ্যোগে, যারা সমাজের উন্নয়নে সক্রিয় ভূমিকা রাখতে আগ্রহী।</p>
