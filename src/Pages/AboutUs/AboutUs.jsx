@@ -42,8 +42,8 @@ const AboutUs = () => {
                     </div>
                     <div className="card bg-base-100 card-md shadow-sm">
                         <div className="card-body">
-                            <h2 className="card-title text-[#bd5602]">অসাম্প্রদায়িক (Non-communal)</h2>
-                            <p>ধর্ম, বর্ণ, লিঙ্গ বা জাতিগত পার্থক্য ছাড়াই সেবক (SEBOK) সকল মানুষের কল্যাণে কাজ করে। আমাদের কাছে মানবতাই সর্বোচ্চ পরিচয়।</p>
+                            <h2 className="card-title text-[#bd5602]">সমাজকল্যাণমূলক (Social-welfare)</h2>
+                            <p>সেবক (SEBOK) একটি সমাজকল্যাণমূলক সংগঠন, যা অসহায় ও সুবিধাবঞ্চিত মানুষের উন্নয়নে বিভিন্ন মানবিক কার্যক্রম পরিচালনা করে।</p>
                         </div>
                     </div>
                 </div>

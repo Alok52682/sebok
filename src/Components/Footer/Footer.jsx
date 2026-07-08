@@ -68,8 +68,8 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="###" className="hover:text-heading">
-                                        LinkedIn
+                                    <Link to="https://www.youtube.com/@sebokinfo" className="hover:text-heading">
+                                        YouTube
                                     </Link>
                                 </li>
                             </ul>
