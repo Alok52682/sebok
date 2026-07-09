@@ -2,6 +2,8 @@ import { Helmet } from "react-helmet-async";
 import ActivitiesHero from "./ActivitiesHero";
 
 const Activities = () => {
+
+
     return (
         <div className="">
             <Helmet>
