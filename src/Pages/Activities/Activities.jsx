@@ -29,6 +29,32 @@ const Activities = () => {
                 </p>
 
             </div>
+
+
+
+            <section
+                className="relative flex flex-col items-center justify-center text-center px-4 py-20 my-10 rounded-xl overflow-hidden"
+                style={{
+                    background: "linear-gradient(135deg, #457d00, #bd5602)",
+                }}
+            >
+                {/* overlay */}
+                <div className="absolute inset-0 bg-black/20"></div>
+
+                {/* content */}
+                <div className="relative z-10 text-white max-w-xl">
+
+                    <h1 className="text-3xl md:text-4xl font-semibold mb-4">
+                        🚧 Activities Coming Soon
+                    </h1>
+
+                    <p className="text-white/80 text-base md:text-lg leading-relaxed">
+                        আমাদের কার্যক্রম সংক্রান্ত বিস্তারিত তথ্য ও আপডেট খুব শীঘ্রই এখানে প্রকাশ করা হবে।
+                        অনুগ্রহ করে কিছু সময় অপেক্ষা করুন।
+                    </p>
+
+                </div>
+            </section>
         </div>
     );
 };
